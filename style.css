@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* nav qismi */
+
+nav{
+    padding: 15px;
+    margin: 25px;
+}
+
+.img__one{
+   width: 700px;
+   position: relative;
+
+   
+}
+
+header{
+    position: relative;
+}
+.img__two{
+    position: absolute;
+    top: 150px;
+    right: 850px;
+    height: 250px;
+    width: 290px;
+    border-radius: 50%;
+}
+.img__three{
+    position: absolute;
+    right: 800px;
+    top: 20px;
+}
+
+h1{
+    color: blue;
+    text-transform: capitalize;
+    
+    position: fixed;
+    top: 10px;
+    z-index: 1;
+    background-color: black;
+    padding: 10px 150px;
+}
+
+h2{
+    position: sticky;
+    margin-top: 40px;
+}
+
+
